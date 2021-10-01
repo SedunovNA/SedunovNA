@@ -5,7 +5,7 @@ package LAB3;
 
 /**
  *
- * @author Uroboros
+ * @author sedunov
  */
 import java.util.Scanner;
 public class Zadanie4 {
