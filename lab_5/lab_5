@@ -41,7 +41,9 @@ public class Main {
 		    case 9:
 		    System.out.println("девять");
 		    break;
-		    
+		    default :
+		    System.out.println("введите цифру от 0 до 9");
+		    break;
 		}
 	}
 }
