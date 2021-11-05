@@ -1,0 +1,25 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    final int NANOSECONDS_PER_SCOND=1000000000, MILLISECONDS_PER_SECOND=1000,
+	    SECONDS_PER_MINUTES=60, MINUTES_PER_HOUR=60, HOURS_PER_DAY=24;
+	    
+	    long totalNanoseconds, totalMilliseconds, totalSeconds, currentSecond,totalMinutes,
+	    currentminute,totalhours,currenthour;
+	    
+	    totalNanoseconds = System.nanoTime();
+	    
+	    totalSeconds = totalNanoseconds / NANOSECONDS_PER_SCOND;
+	    
+	    currentSecond = totalSeconds % SECONDS_PER_MINUTES;
+	    totalMinutes = totalSeconds / SECONDS_PER_MINUTES;
+	    
+	    currentminute = totalMinutes % MINUTES_PER_HOUR;
+	    totalhours = totalMinutes / MINUTES_PER_HOUR;
+	    
+	    currenthour = totalhours % HOURS_PER_DAY;
+	    
+		System.out.println("текущее вермя " + currenthour + ":"
+		+ currentminute + ":" + currentSecond + " GMT.");
+	}
+}
