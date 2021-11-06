@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int amount, numberOf5000R, numberOf2000R,
+	    numberOf1000R, nberOf500R, numberOf100R,
+	    numberOf200R, numberOf50R;
+	    
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.print("Веедите сумму в рублях, кратную 50: ");
+	    amount = Scanner.nextInt();
+	    
+	    numberOf5000R = amount / 5000;
+	    amount %= 5000;
+	    
+	    numberOf2000R = amount / 2000;
+	    amount %= 2000;
+	    
+	    numberOf1000R = amount / 1000;
+	    amount %= 1000;
+	    
+	    nberOf500R = amount / 500;
+	    amount %= 500;
+	    
+	    numberOf200R = amount / 200;
+	    amount %= 200;
+	    
+	    numberOf100R = amount / 100;
+	    amount  %= 100;
+	    
+	    numberOf50R = amount / 50;
+	    
+		System.out.println("Ваша сумма состоит из");
+		System.out.println("   " + numberOf5000R + " шт. 5-тыс. руб. купюр,");
+		System.out.println("   " + numberOf2000R + " шт. 2-тыс. руб. купюр,");
+        System.out.println("   " + numberOf1000R + " шт. 1-тыс. руб. купюр,");
+        System.out.println("   " + nberOf500R + " шт. 500-руб. купюр,");
+        System.out.println("   " + numberOf200R + " шт. 200-руб. купюр,");
+        System.out.println("   " + numberOf100R + " шт. 100-руб. купюр,");
+        System.out.println("   " + numberOf50R + " шт. 50-руб. купюр,");
+	}
+}
