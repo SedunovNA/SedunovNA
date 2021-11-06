@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+    double startodom, endodom, distance, stoim;
+    int numb;
+    
+    Scanner Scanner = new Scanner(System.in);
+    System.out.print("Введите начальное показание одометра: ");
+    startodom = Scanner.nextDouble();
+    System.out.print("Введите конечное показание одометра: ");
+    endodom = Scanner.nextDouble();
+    
+    distance = endodom - startodom;
+    stoim = 8 * distance;
+    System.out.println("Вы проехали: " + (int)(distance*10 + 0.5)/10.0 +
+    "км. Из расчета" + " 8 руб. за км," + "стоимость проезда равна "
+    + (int)(stoim) + "руб. " + 10*(int)(10*(stoim - (int)(stoim)) +0.5) 
+    + " коп.");
+	}
+}
