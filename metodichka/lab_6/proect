@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	double canaddollrs, curscd, ruble;
+	
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Введите сумму в канадских долларах: ");
+	canaddollrs = scanner.nextDouble();
+	System.out.print("Введиет курс в канадских долларах в рублях: ");
+	curscd = scanner.nextDouble();
+	
+	ruble = curscd * canaddollrs;
+	System.out.println("Сумма в рублях " + (int) (ruble*100)/100.0);
+  }
+}
