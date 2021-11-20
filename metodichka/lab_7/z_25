@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Double x=0.00;
+	    Scanner Scanner = new Scanner(System.in);
+//	    System.out.println("Введите число в x, income, number");
+//	    x = Scanner.nextDouble();
+if (true || true && false )
+System.out.println(x+=1);
+else System.out.println(x+=2);
+
+if (true && true || false )
+System.out.println(x+=1);
+else System.out.println(x+=2);
+
+
+              }
+	}
