@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double x;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите число в x");
+	    x = Scanner.nextDouble();
+if ((x > 1) && (x < 100))
+System.out.println("true");
+else 
+System.out.println("false");
+if (((x > 1) && (x < 100)) || (x<0))
+System.out.println("true");
+else 
+System.out.println("false");
+
+              }
+	}
