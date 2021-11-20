@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double r;
+	    double a=0;
+	    Scanner Scanner = new Scanner(System.in);
+	    
+		System.out.println("Введите радиус круга");
+		r = Scanner.nextDouble();
+		if (r<0) {
+		    System.out.println("Некорректные входные данные");
+		} else {
+		    a = 3.14 * r * r;
+		    	System.out.print("Площадь круга для радиуса равна ");
+		System.out.print(a);
+		}
+
+	}
+}
