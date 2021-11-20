@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double count,age;
+	    boolean newLine;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите сколько годиков");
+	    age = Scanner.nextDouble();
+
+
+if (age < 18)
+System.out.println
+("Нельзя получить кредит");
+else
+System.out.println
+("Можно получить кредит ");
+System.out.println("да коррекнты. 2 предложение лучше т.к" +
+"меньше места ханимает");
+
+              }
+	}
