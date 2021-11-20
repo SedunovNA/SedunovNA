@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double y,x;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите любое число score");
+	    y = Scanner.nextDouble();
+	    System.out.println("Введите любое число pay");
+	    x = Scanner.nextDouble();
+	    if (y>90) {
+	        x = x * 1.03;
+	    
+	        System.out.println("если вы ввели число score > 90 то pay = " + x);
+	   } else {
+	       x = x * 1.01;
+	   
+	     System.out.println("если вы ввели число score < 90 то pay = " + x);
+              }
+	}
+}
