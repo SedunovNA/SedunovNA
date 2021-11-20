@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Double x,score,scale,income,tax,number,i,j;
+	    scale = 1.00;
+	    i = 1.00; j = 2.00;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите число в x, income, number");
+	    x = Scanner.nextDouble();
+	    income = Scanner.nextDouble();
+	    number = Scanner.nextDouble();
+if (x > 10 )
+System.out.println(score = 3 * scale);
+else System.out.println(score = 4 * scale);
+
+if (income > 10000) 
+System.out.println(tax = 0.2 * income);
+else System.out.println(tax = 0.17 * income + 1000);
+
+if (number % 3 == 0)
+System.out.println(i);
+else System.out.println(j);
+              }
+	}
