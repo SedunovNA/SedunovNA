@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int x,y;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите число в x и y");
+	    x = Scanner.nextInt();
+	    y = Scanner.nextInt();
+if (x>y && y>0)
+System.out.println("true");
+else 
+System.out.println("false");
+
+if (x == y)
+System.out.println("true");
+else 
+System.out.println("false");
+
+if (x != y)
+System.out.println("true");
+else 
+System.out.println("false");
+//if (x or y)
+//System.out.println("true");
+//else 
+//System.out.println("false");
+//if (x and y)
+//System.out.println("true");
+//else 
+//System.out.println("false");
+if (x != 0 || x == 0)
+System.out.println("true");
+else 
+System.out.println("false");
+
+
+              }
+	}
