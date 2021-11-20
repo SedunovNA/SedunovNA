@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int x=0;
+	    double y;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите любое число");
+	    y = Scanner.nextDouble();
+	    if (y>0) {
+	        x=1;
+	    
+	        System.out.println("если вы ввели число > 0 то = " + x);
+	   } else
+	     System.out.println("если вы ввели число < 0 то = " + x);
+
+	}
+}
