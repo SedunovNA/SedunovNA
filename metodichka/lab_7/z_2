@@ -1,0 +1,20 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    double x=1;
+	    System.out.println("При x=1 ответы на следующие значения будут" + 
+	    "следующими");
+	    boolean b;
+	    b = x > 0;
+	    System.out.println("x >0 = " + b);
+	    b = x < 0;
+		System.out.println("x <0 = " + b);
+		b = x != 0;
+		System.out.println("x != 0 = " + b);
+		b = x >= 0;
+		System.out.println("x >= 0 = " + b);
+		b = x != 1;
+		System.out.println("x != 1 = " + b);
+
+	}
+}
