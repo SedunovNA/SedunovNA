@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double count;
+	    boolean newLine;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите count");
+	    count = Scanner.nextDouble();
+
+	 if (count % 10 == 0)
+        newLine = true;
+    else
+        newLine = false;
+        System.out.println(newLine);
+              }
+	}
