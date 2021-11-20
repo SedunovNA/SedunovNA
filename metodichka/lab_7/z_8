@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double y,x;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите частота пулься в состоянии покоя");
+	    x = Scanner.nextDouble();
+	    if (x>56) {
+	    
+	        System.out.println("Продолжать тренироваться");
+	   } else {
+	    
+	   
+	     System.out.println("Ваше сердце в отличном состоянии");
+              }
+	}
+}
