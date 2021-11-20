@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double y,x=0,k,i,j,z=0;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите i и j и k");
+	    i = Scanner.nextDouble();
+	    j = Scanner.nextDouble();
+	    k = Scanner.nextDouble();
+	  if (i > 0) {
+        if (j > 0)
+            x = 0;
+        else if (k > 0)
+            y = 0;
+      else
+        z = 0;
+System.out.println("z равен " + z);
+} else
+System.out.println("x равен " + x);
+              }
+	}
