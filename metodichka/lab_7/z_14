@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double number;
+	    boolean newLine;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите x");
+	    number = Scanner.nextDouble();
+
+if (number % 2 == 0)
+System.out.println(number + " четное");
+if (number % 5 == 0)
+System.out.println(number + " кратно 5");
+
+System.out.println("---------------");
+if (number % 2 == 0)
+System.out.println(number + " четное");
+else if (number % 5 == 0)
+System.out.println(number + " кратно 5");
+
+              }
+	}
