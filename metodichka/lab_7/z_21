@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int x,y,z;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите число в x,y,z");
+	    x = Scanner.nextInt();
+	    y = Scanner.nextInt();
+	    z = Scanner.nextInt();
+System.out.println("age больше 13 и меньше 18"); 
+if (x>13 && x < 18)
+System.out.println("true");
+else 
+System.out.println("false");
+System.out.println("weight больше 23 кг или height больше 152 см");
+if (y>23 || z > 152)
+System.out.println("true");
+else 
+System.out.println("false");
+if (y>23 || z > 152) {
+    if (!(y>23 && z > 152))
+System.out.println("weight больше 23 кг или height больше 152 см," + 
+"но не одновременно.");
+else System.out.println("false");
+} else System.out.println("false");
+              }
+	}
