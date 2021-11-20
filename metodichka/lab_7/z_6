@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    double product,x;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите любое число x");
+	    x = Scanner.nextDouble();
+	    System.out.println("Введите любое число product");
+	    product = Scanner.nextDouble();
+	    if (x != 0) {
+	        product = x * product;
+	    
+	        System.out.println("если вы ввели число" +
+	        "x не = 0 то product = " + product);
+	   } else
+	     System.out.println("если вы ввели число x = 0" + 
+	     "то product = " + product);
+
+	}
+}
