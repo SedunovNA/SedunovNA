@@ -1,0 +1,17 @@
+//import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int x;
+	    double y;
+//	    Scanner Scanner = new Scanner(System.in);
+//	    System.out.println("Введите x");
+//	    x = Scanner.newDuoble();
+	    x = 34+(int)(Math.random()*22);
+	    System.out.println("рандомное число от 34 до 55 = " + x);
+	    x = (int)(Math.random()*1000);
+	    System.out.println("рандомное число от 0 до 999 = " + x);
+		y = 5.5+(double)(Math.random()*55.5);
+	    System.out.println("рандомное число от 5.5 до 55.5 = " + y);
+	}
+}
