@@ -8,7 +8,7 @@ public static void main(String[] args) {
     //System.out.println(s3 = s1 - s2);
     int i;
     char c;
-    //c = s1(0);
+    //c = s1(0); в символ нельзя засунуть строку
     System.out.println(s1 == s2);
     //System.out.println(s1 >= s2); (надо в числовой ип преобразовать)
     System.out.println(s1.compareTo(s2));
