@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    Double x;
+//	    Scanner Scanner = new Scanner(System.in);
+//	    System.out.println("Введите x");
+//	    x = Scanner.newDuoble();
+	    
+	    System.out.println("47 крадусов в радианах = " + Math.toRadians(47));
+		
+	}
+}
