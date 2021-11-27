@@ -1,0 +1,13 @@
+//import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Double x;
+//	    Scanner Scanner = new Scanner(System.in);
+//	    System.out.println("Введите x");
+//	    x = Scanner.newDuoble();
+	    x = Math.toDegrees(Math.PI);
+	    System.out.println("Пи в градусах = " + x);
+		
+	}
+}
