@@ -1,0 +1,13 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int x;
+//	    Scanner Scanner = new Scanner(System.in);
+//	    System.out.println("Введите x");
+//	    x = Scanner.newDuoble();
+	    x = (int)(Math.random()*100);
+	    char y =(char)x;
+	    System.out.println("рандомная строчная буква с номером " + x + " = " + y);
+        
+	}
+}
