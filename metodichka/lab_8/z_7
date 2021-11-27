@@ -1,0 +1,20 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int x = '1';
+//	    Scanner Scanner = new Scanner(System.in);
+//	    System.out.println("Введите x");
+//	    x = Scanner.newDuoble();
+        System.out.println("1 в коде ASCII, = " + x);
+ //       x='\u345dE'; //Уникоды из 4 а тут 5 символов
+ //       System.out.println("A в коде ASCII, = " + x);
+        x='\u3fFa';
+        System.out.println("\u3fFa = " + x);
+        x='\b';
+        System.out.println("\b = " + x);
+        x='\t';
+        System.out.println("\t = " + x);
+
+
+	}
+}
