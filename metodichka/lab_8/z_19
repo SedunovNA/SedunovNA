@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Test {
+  public static void main(String[] args) {
+    // ...
+    Double i = 523.221;
+    String num = "";
+    String s = num + i;
+    s = s.trim();
+    
+  System.out.println("Длина строки S=" + s.length());
+  //System.out.println(1 + "Welcome " + (1 + 1));
+  //System.out.println(1 + "Welcome " + ('\u0001' + 1));
+  //System.out.println(1 + "Welcome " + 'a' + 1);
+  } 
+}
