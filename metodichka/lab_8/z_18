@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+
+int i = 523221;
+String num = "";
+String s = num + i;
+s = s.trim();
+System.out.println("Длина строки s= " + s.length());
+}}
