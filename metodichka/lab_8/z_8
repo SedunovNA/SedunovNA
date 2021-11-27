@@ -1,0 +1,14 @@
+{
+	public static void main(String[] args) {
+//	    Scanner Scanner = new Scanner(System.in);
+//	    System.out.println("Введите x");
+//	    x = Scanner.newDuoble();
+        int i = '1';
+        int j = '1' + '2' * ('4' - '3') + 'b' / 'a';
+        int k = 'a';
+        char c = 90;
+        System.out.println(i + " " + j + " " + k + " " + c);
+
+
+	}
+}
