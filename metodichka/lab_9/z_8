@@ -11,7 +11,7 @@ public class Main {
 	    //System.out.println("Введите целое число");
 	    //int n = Scanner.nextInt();
 	    
-	    System.out.println("Численность перевалит за " + chi + " через " +i);
+	    System.out.println("Численность перевалит за " + (int)chi + " через " +i);
         
 	}
 }
