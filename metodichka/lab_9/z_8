@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+	    int i, j;
+	    double chi;
+	    chi = 9870;
+	    for (i=1; chi <= 30000; ++i){
+	        chi += 0.1 * chi;
+	    }
+	    //Scanner Scanner = new Scanner(System.in);
+	    //System.out.println("Введите целое число");
+	    //int n = Scanner.nextInt();
+	    
+	    System.out.println("Численность перевалит за " + chi + " через " +i);
+        
+	}
+}
