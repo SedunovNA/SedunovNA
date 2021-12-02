@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int i, j;
+	    Scanner Scanner = new Scanner(System.in);
+	    //System.out.println("Введите целое число");
+	    //int n = Scanner.nextInt();
+	    j = 10;
+        for (i = 1; i <= 5; ++i) {
+            System.out.println(i + " " + j);
+            j -= 2;
+        }
+	}
+}
