@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int odd, sum;
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Введите целое число");
+	    int n = Scanner.nextInt();
+	    sum = 0;
+        for (odd = 1; odd < n; odd += 2)
+            sum += odd;
+		    System.out.println(" = " + sum);
+	}
+}
