@@ -1,0 +1,14 @@
+public class Main
+{
+  public static double kommisia(double summa, double procent);
+  public static String mes(int mesac, int god);
+  public static double kor(double chislo);
+  public static boolean chet(double chislo);
+  public static void pov(int n);
+  public static double plateg(double kredit, double let, double proc);
+  public static char zagl(char bukva);
+
+  public static void main (String[]args)
+  {
+    System.out.println (" ");
+}}
